@@ -354,7 +354,6 @@ body {
 /* predictions */
 .predictions-grid {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
     gap: 0.25rem;
     margin-top: 0.75rem;
     min-width: 0; /* prevent overflow */
