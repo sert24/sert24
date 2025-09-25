@@ -1,0 +1,194 @@
+{
+  "teams": {
+    "Galatasaray": {
+      "name": "Galatasaray",
+      "logo": "images/galatasaray.svg"
+    },
+    "Eintracht Frankfurt": {
+      "name": "Eintracht Frankfurt",
+      "logo": "images/eintracht-frankfurt.svg"
+    },
+    "Liverpool": {
+      "name": "Liverpool",
+      "logo": "images/liverpool.svg"
+    },
+    "Bodø/Glimt": {
+      "name": "Bodø/Glimt",
+      "logo": "images/bodo-glimt.svg"
+    },
+    "Ajax": {
+      "name": "Ajax",
+      "logo": "images/ajax.svg"
+    },
+    "Union SG": {
+      "name": "Union SG",
+      "logo": "images/union-sg.svg"
+    },
+    "Monaco": {
+      "name": "Monaco",
+      "logo": "images/monaco.svg"
+    },
+    "Atletico Madrid": {
+      "name": "Atletico Madrid",
+      "logo": "images/atletico-madrid.svg"
+    },
+    "Manchester City": {
+      "name": "Manchester City",
+      "logo": "images/manchester-city.svg"
+    }
+  },
+  "matches": [
+    {
+      "id": 1,
+      "team": "Galatasaray",
+      "home": false,
+      "opponent": "Eintracht Frankfurt",
+      "date": "2025-09-18",
+      "time": "22:00",
+      "result": "5-1"
+    },
+    {
+      "id": 2,
+      "team": "Galatasaray",
+      "home": true,
+      "opponent": "Liverpool",
+      "date": "2025-09-30",
+      "time": "22:00",
+      "result": null
+    },
+    {
+      "id": 3,
+      "team": "Galatasaray",
+      "home": false,
+      "opponent": "Bodø/Glimt",
+      "date": "2025-10-22",
+      "time": "19:45",
+      "result": null
+    },
+    {
+      "id": 4,
+      "team": "Galatasaray",
+      "home": true,
+      "opponent": "Ajax",
+      "date": "2025-11-05",
+      "time": "22:00",
+      "result": null
+    },
+    {
+      "id": 5,
+      "team": "Galatasaray",
+      "home": false,
+      "opponent": "Union SG",
+      "date": "2025-11-25",
+      "time": "19:45",
+      "result": null
+    },
+    {
+      "id": 6,
+      "team": "Galatasaray",
+      "home": true,
+      "opponent": "Monaco",
+      "date": "2025-12-09",
+      "time": "22:00",
+      "result": null
+    },
+    {
+      "id": 7,
+      "team": "Galatasaray",
+      "home": false,
+      "opponent": "Atletico Madrid",
+      "date": "2026-01-21",
+      "time": "19:45",
+      "result": null
+    },
+    {
+      "id": 8,
+      "team": "Galatasaray",
+      "home": true,
+      "opponent": "Manchester City",
+      "date": "2026-01-28",
+      "time": "22:00",
+      "result": null
+    }
+  ],
+  "guesses": [
+    {
+      "name": "bozo",
+      "predictions": {
+        "1": "W",
+        "2": "L",
+        "3": "W",
+        "4": "L",
+        "5": "W",
+        "6": "D",
+        "7": "L",
+        "8": "L"
+      }
+    },
+    {
+      "name": "sert",
+      "predictions": {
+        "1": "D",
+        "2": "L",
+        "3": "W",
+        "4": "L",
+        "5": "W",
+        "6": "D",
+        "7": "L",
+        "8": "L"
+      }
+    },
+    {
+      "name": "baran",
+      "predictions": {
+        "1": "D",
+        "2": "L",
+        "3": "W",
+        "4": "D",
+        "5": "W",
+        "6": "L",
+        "7": "L",
+        "8": "L"
+      }
+    },
+    {
+      "name": "eko",
+      "predictions": {
+        "1": "D",
+        "2": "L",
+        "3": "W",
+        "4": "L",
+        "5": "W",
+        "6": "W",
+        "7": "D",
+        "8": "L"
+      }
+    },
+    {
+      "name": "ekb",
+      "predictions": {
+        "1": "W",
+        "2": "W",
+        "3": "D",
+        "4": "W",
+        "5": "W",
+        "6": "W",
+        "7": "D",
+        "8": "W"
+      }
+    },
+    {
+      "name": "emir",
+      "predictions": {
+        "1": "W",
+        "2": "L",
+        "3": "W",
+        "4": "L",
+        "5": "W",
+        "6": "W",
+        "7": "D",
+        "8": "D"
+      }
+    }
+  ]
+}
