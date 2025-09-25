@@ -392,8 +392,9 @@ function generateMatchHeader(match, leftTeam, rightTeam, resultColor) {
 
 function generatePredictions(match) {
     const isCompleted = match.result !== null;
-    let html = `<div class="predictions-grid">`;
-    
+    const numUsers = data.guesses.length;                                                               
+    let html = `<div class="predictions-grid" style="grid-template-columns: repeat(${numUsers},         
+1fr);">`;                                                                                                
     data.guesses.forEach(person => {
         const prediction = person.predictions[match.id];
         const isCorrect = isCompleted && prediction ? isPredictionCorrect(prediction, match.result, match.home) : false;
