@@ -93,11 +93,11 @@ function isPredictionCorrect(prediction, result, isHome) {
     // actual outcome
     let actualOutcome;
     if (teamScore > opponentScore) {
-        actualOutcome = 'W'; // win
+        actualOutcome = 'G'; // win
     } else if (teamScore < opponentScore) {
-        actualOutcome = 'L'; // loss
+        actualOutcome = 'M'; // loss
     } else {
-        actualOutcome = 'D'; // draw
+        actualOutcome = 'B'; // draw
     }
 
     // compare with prediction
